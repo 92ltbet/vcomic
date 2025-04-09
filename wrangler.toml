@@ -7,7 +7,7 @@ compatibility_flags = ["nodejs_compat"]
 command = "npm run build"
 
 [site]
-bucket = "./out"
+bucket = "./.next/standalone/.next/static"
 
 [env.production]
-pages_build_output_dir = "out" 
+pages_build_output_dir = "./.next/standalone/.next/static" 

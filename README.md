@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # VenComic - Trang Web Đọc Truyện Tranh
 
 VenComic là một trang web đọc truyện tranh online với giao diện đẹp và hiện đại, được xây dựng bằng Next.js và Tailwind CSS.
@@ -66,3 +67,6 @@ src/
 ## License
 
 MIT 
+=======
+# vcomic
+>>>>>>> 3cb2d20471fc89c780d7290022405f695b8c123b

@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "fetch-comics": "ts-node scripts/fetch-comics.ts",
-    "cron": "ts-node scripts/cron.ts"
+    "cron": "ts-node scripts/cron.ts",
+    "deploy:cf": "npm run build && npx wrangler pages deploy .next/static --project-name=vencomic"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
