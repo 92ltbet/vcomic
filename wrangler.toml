@@ -1,0 +1,13 @@
+name = "vencomic"
+main = "./.next/standalone/server.js"
+compatibility_date = "2023-12-01"
+compatibility_flags = ["nodejs_compat"]
+
+[build]
+command = "npm run build"
+
+[site]
+bucket = "./out"
+
+[env.production]
+pages_build_output_dir = "out" 
